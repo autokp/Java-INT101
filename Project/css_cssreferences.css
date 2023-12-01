@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Nunito+Sans:opsz@6..12&family=Open+Sans&display=swap');
+
+/* background & ค่าพื้นฐาน */
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    background-color: #161853;
+}
+
+/* ข้อความต่าง ๆ ใน content */
+h1, h4 {
+    color: #FAEDF0;
+    text-align: center;
+}
+p, a {
+    text-align: center;
+    color: #FAEDF0;
+}
+a {
+    text-decoration: none;
+}
+.container_text {
+    margin: 20px;
+    padding-bottom: 10px;
+}
+
+/* รูปภาพต่าง ๆ ใน content */
+img {
+    object-fit: cover;
+    width: 498.83px;
+    height: 253.67px;
+}
+.container_img {
+    margin: 0 auto;
+    width: 40%;
+    margin-right: 700px;
+}
+
+/* go to web clone */
+.page1, .page2, .page3 {
+    background-color: #292C6D;
+    margin: 20px auto;
+    width: 40%;
+    border-radius: 5%;
+}
+
+/* css references */
+.tagcss {
+    margin: 0 auto;
+    position: relative;
+    top: 5px;
+}
+.verticle_align, .z_index, .border_image, .border_image_slice, .list_style_position, .border_spacing, .border_collapse {
+    background-color: #292C6D;
+    margin: 20px auto;
+    border-radius: 5%;
+    width: 40%;
+}
+.container_text_css {
+    margin: 20px;
+    padding-top: 10px;
+}

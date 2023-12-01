@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Nunito+Sans:opsz@6..12&family=Open+Sans&display=swap');
+@media screen and (max-width:450px){
+    
+    /* navbar responsive */
+    .header {
+        padding: 0 !important;
+    }
+    .navbar {
+        width: 100% !important;
+        height: auto;
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        padding: 0 !important;
+        display: block;
+    }
+    .navbar ul {
+        text-align: center;
+        padding: 0 !important;
+        margin: 0;
+        margin-top: 0 !important;
+        width: 100%;
+    }
+    .navbar ul li {
+        width: 50%;
+        float: right;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .navbar ul li:not(:last-of-type) {
+        display: inline-block;
+        width: 50%;
+        float: left;
+        margin: 0;
+    }
+    .navbar ul li a {
+        display: block;
+        line-height: 20px;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+        border-right: 1px solid rgba(255,255,255,0.1);
+        padding: 10px 0;
+    }
+
+    /* logo stardew valley responsive */
+    .logo {
+        margin-top: 170px !important;
+    }
+
+    /* ปรับ content responsive ให้สวยงาม */
+    .page_content {
+        margin: 0 !important;
+        margin-bottom: 30px !important; 
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* background & ค่าพื้นฐาน */
+body {
+    background: url("https://stardewvalley.net/wp-content/uploads/2017/12/stardewbackground.png")
+    no-repeat fixed center center / cover;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.42857143;
+    color: #333;
+    margin: 0;
+}
+
+/* navbar */
+.header {
+    top: 0;
+    position: absolute;
+    margin: 0;
+    height: auto;
+    width: 100%;
+    background-color: rgba(21, 71, 148, 0.8);
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    z-index: 20;
+    padding: 0;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+.navbar {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+.navbar ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+/* logo stardew valley */
+.logo {
+    margin: 85px auto 10px;
+    max-width: 500px;
+}
+.logo img {
+    width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+    border: 0;
+}
+
+/* main content */
+.page_content {
+    max-width: 1120px;
+    margin: 70px;
+    z-index: 20;
+}
+article {
+    margin: 0px;
+    width: 100%;
+    margin-bottom: 25px;
+    color: #252525;
+    border: 10px solid transparent;
+    padding: 30px;
+    padding-top: 15px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-image: url(https://stardewvalley.net/wp-content/uploads/2017/12/menu_border_noshadowtopleft.png) 33 stretch;
+    border-image-slice: 33%;
+    background-color: #ffffcc;
+    display: inline-block;
+}
+article:last-of-type {
+    margin-bottom: 0px;
+}
+.post_content {
+    max-width: 100%;
+    min-width: 0px;
+    margin-left: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    clear: both;
+}
+h3 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #663300;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+}
+p {
+    margin: 0 0 10px;
+}
+strong {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #a04020;
+}
+.post_content a {
+    font-weight: bold;
+    color: #0066cc;
+}
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+.clear {
+    clear: both;
+}
